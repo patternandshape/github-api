@@ -1,7 +1,6 @@
 var getRepos = require('../js/user.js').getRepos;
 
 $(document).ready(function() {
-  var user;
   $('#repoFind').click(function() {
     //get username from user
     var user = $('#userName').val();
