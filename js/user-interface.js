@@ -1,4 +1,3 @@
-var apiKey = require('./../.env').apiKey;
 var getRepos = require ('../js/user.js').getRepos;
 
 $(document).ready(function() {
@@ -11,6 +10,7 @@ $(document).ready(function() {
     $('#userName').val("");
     //run api call
     getRepos(user);
-});
+
     event.preventDefault();
+});
 });

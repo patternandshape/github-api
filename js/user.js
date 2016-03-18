@@ -1,3 +1,5 @@
+var apiKey = require('./../.env').apiKey;
+
 exports.getRepos = function(user){
   $('#repoList').empty();
   debugger;
