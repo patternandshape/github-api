@@ -1,4 +1,4 @@
-var getRepos = require ('../js/user.js').getRepos;
+var getRepos = require('../js/user.js').getRepos;
 
 $(document).ready(function() {
   var user;
@@ -11,5 +11,5 @@ $(document).ready(function() {
     getRepos(user);
 
     event.preventDefault();
-});
+  });
 });

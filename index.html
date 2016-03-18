@@ -3,16 +3,25 @@
   <head>
     <link rel="stylesheet" href="build/css/vendor.css">
     <link rel="stylesheet" href="build/css/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Quicksand:400,300,700' rel='stylesheet' type='text/css'>
     <script src="build/js/vendor.min.js"></script>
     <script src="bower_components/moment/min/moment.min.js"></script>
     <script type="text/javascript" src="build/js/app.js"></script>
     <title>Github User Search</title>
   </head>
-  <body class="container">
-    <h1>Github User Search</h1>
-    <label for="userName">Username:</label>
-    <input id="userName" type="text" value="">
-    <a class="btn btn-danger" id="repoFind">FIND</a>
-    <div id="repoList"></div>
+  <body>
+    <header>
+      <i class="fa fa-github"></i>
+      <h1>Github User Search</h1>
+    </header>
+    <div class="container">
+      <div class="search-zone">
+        <label for="userName">Username:</label>
+        <input id="userName" type="text" value="">
+        <a class="btn btn-danger" id="repoFind">FIND</a>
+      </div>
+      <div id="repoList"></div>
+    </div>
   </body>
 </html>
