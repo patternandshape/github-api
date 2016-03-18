@@ -1,0 +1,23 @@
+{
+  "name": "street-view",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Molly Curtin <patternandshape@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/patternandshape/street-view",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.1",
+    "bootstrap": "^3.3.6",
+    "moment": "^2.12.0"
+  }
+}
