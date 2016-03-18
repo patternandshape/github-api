@@ -18,6 +18,7 @@ A webpage to search for GitHub repositories using GitHub's API.
        ```$ bower install ```<br>
        ```$ gulp build ```<br>
        ```$ gulp serve ```<br>
+       
 3. Your browser will automatically navigate to the app
 
 ##### Technologies Used
