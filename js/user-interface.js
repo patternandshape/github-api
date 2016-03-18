@@ -7,10 +7,10 @@ $(document).ready(function() {
     //get username from user
     var user = $('#userName').val();
     //clear out username field
-    console.log(userName);
+    // console.log(userName);
     $('#userName').val("");
     //run api call
     getRepos(user);
-    event.preventDefault();
 });
+    event.preventDefault();
 });
