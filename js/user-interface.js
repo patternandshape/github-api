@@ -1,13 +1,15 @@
-// var displayMissingBike = require ('../js/bike.js').displayMissingBike;
-//
-// $(document).ready(function() {
-//   $('#missingBike').click(function() {
-//     //get city from user
-//     var city = $('#yourCity').val();
-//     //clear out city field
-//     $('#yourCity').val("");
-//     //run api call
-//     displayMissingBike(city);
-//     event.preventDefault();
-// });
-// });
+var apiKey = require('./../.env').apiKey;
+var getRepos = require ('../js/user.js').getRepos;
+
+$(document).ready(function() {
+  $('#repoFind"').click(function() {
+    //get username from user
+    var userName = $('#userName').val();
+    //clear out username field
+    console.log(userName);
+    $('#userName').val("");
+    //run api call
+    getRepos(userName);
+    event.preventDefault();
+});
+});

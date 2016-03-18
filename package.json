@@ -1,5 +1,5 @@
 {
-  "name": "street-view",
+  "name": "github-api",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -27,11 +27,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/patternandshape/street-view.git"
+    "url": "git+https://github.com/patternandshape/github-api.git"
   },
   "bugs": {
-    "url": "https://github.com/patternandshape/street-view/issues"
+    "url": "https://github.com/patternandshape/github-api"
   },
-  "homepage": "https://github.com/patternandshape/street-view#readme",
+  "homepage": "https://github.com/patternandshape/github-api#readme",
   "description": ""
 }

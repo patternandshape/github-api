@@ -1,12 +1,12 @@
 {
-  "name": "street-view",
+  "name": "github-api",
   "description": "",
   "main": "index.js",
   "authors": [
     "Molly Curtin <patternandshape@gmail.com>"
   ],
   "license": "ISC",
-  "homepage": "https://github.com/patternandshape/street-view",
+  "homepage": "https://github.com/patternandshape/github-api",
   "moduleType": [],
   "ignore": [
     "**/.*",
