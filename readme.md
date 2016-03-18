@@ -10,7 +10,7 @@ March 18, 2016
 
 A webpage to search for GitHub repositories using GitHub's API.
 
-## Setup/Installation Requirements
+### Setup Instructions
 
 1. Open Terminal and clone this repository:<br> ```https://github.com/patternandshape/github-api.git```
 2. Within the project directory run:<br>
@@ -23,7 +23,7 @@ A webpage to search for GitHub repositories using GitHub's API.
 
 #####Github User Search can be viewed at http://patternandshape.github.io/github-api
 
-##### Technologies Used
+### Technologies Used
 
 * HTML
 * SCSS
