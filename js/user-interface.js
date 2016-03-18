@@ -1,4 +1,3 @@
-var apiKey = require('../.env').apiKey;
 var getRepos = require ('../js/user.js').getRepos;
 
 $(document).ready(function() {
