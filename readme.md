@@ -12,14 +12,16 @@ A webpage to search for GitHub repositories using GitHub's API.
 
 ## Setup/Installation Requirements
 
-1. Open Terminal and clone this repository: ```https://github.com/patternandshape/github-api.git```
+1. Open Terminal and clone this repository:<br> ```https://github.com/patternandshape/github-api.git```
 2. Within the project directory run:<br>
        ```$ npm install ```<br>
        ```$ bower install ```<br>
        ```$ gulp build ```<br>
        ```$ gulp serve ```<br>
-       
-3. Your browser will automatically navigate to the app
+
+3. Your browser will automatically navigate to the app.
+
+#####Github User Search can be viewed at http://patternandshape.github.io/github-api
 
 ##### Technologies Used
 
@@ -37,7 +39,6 @@ A webpage to search for GitHub repositories using GitHub's API.
 * Bootstrap
 * Google Fonts
 
-#####Github User Search can be viewed at http://patternandshape.github.io/github-api
 
 ##### License
 
