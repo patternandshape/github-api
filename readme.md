@@ -37,6 +37,7 @@ A webpage to search for GitHub repositories using GitHub's API.
 * GitHub API
 * Bootstrap
 * Google Fonts
+* Font Awesome
 
 
 ##### License
