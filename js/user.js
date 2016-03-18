@@ -1,7 +1,8 @@
-exports.getRepos = function(userName){
-  $('#repoList').empty();
+exports.getRepos = function(user){
+  // $('#repoList').empty();
   // $.get('https://api.github.com/users/daneden/repos?access_token=' + apiKey).then(function(response){
   $.get('https://api.github.com/users/:username/repos?access_token=' + apiKey).then(function(response){
+    debugger
     console.log(response);
     for(var i = 0; i <= response.username.length; i++){
     $('#repoList').append("<li>" + response.username[i].repos + "</li>");

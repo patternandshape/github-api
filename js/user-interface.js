@@ -4,12 +4,12 @@ var getRepos = require ('../js/user.js').getRepos;
 $(document).ready(function() {
   $('#repoFind"').click(function() {
     //get username from user
-    var userName = $('#userName').val();
+    var user = $('#userName').val();
     //clear out username field
     console.log(userName);
     $('#userName').val("");
     //run api call
-    getRepos(userName);
+    getRepos(user);
     event.preventDefault();
 });
 });
