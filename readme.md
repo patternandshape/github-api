@@ -21,7 +21,6 @@ A webpage to search for GitHub repositories using GitHub's API.
 
 3. Your browser will automatically navigate to the app.
 
-#####Github User Search can be viewed at http://patternandshape.github.io/github-api
 
 ### Technologies Used
 
