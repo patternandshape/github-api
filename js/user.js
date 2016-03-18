@@ -2,12 +2,10 @@ var apiKey = require('./../.env').apiKey;
 
 exports.getRepos = function(user){
   $('#repoList').empty();
-  debugger;
   // $.get('https://api.github.com/users/daneden/repos?access_token=' + user + apiKey).then(function(response){
-  $.get('https://api.github.com/users/username?access_token=' + user + apiKey).then(function(response){
-    console.log(response);
-    for(var i = 0; i <= response.username.length; i++){
-    $('#repoList').append("<li>" + response.username[i].repos + "</li>");
+  $.get('https://api.github.com' + '/users' + user + '/repos?access_token=' + apiKey).then(function(response){
+    for(var i = 0; i <= response.repos.length; i++){
+    $('#repoList').append("<li>" + response.repos[i].repos + "</li>");
   } console.log(response);
   }).fail(function(error){
     $('#repoList').text(error.responseJSON.message);
