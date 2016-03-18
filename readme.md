@@ -12,7 +12,7 @@ A webpage to search for GitHub repositories using GitHub's API.
 
 ## Setup/Installation Requirements
 
-1. Open Terminal and clone into this repository: ```https://github.com/patternandshape/github-api.git```
+1. Open Terminal and clone this repository: ```https://github.com/patternandshape/github-api.git```
 2. Within the project directory run:<br>
        ```$ npm install ```<br>
        ```$ bower install ```<br>
