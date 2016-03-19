@@ -29,24 +29,32 @@
   }
 }
 
-li {
-  list-style: none;
+p {
+  margin: 0 auto;
   color: $beige;
-  letter-spacing: 0.3em;
+  letter-spacing: 0.2em;
+  line-height: 2.3em;
   text-align: center;
+  font-size: 1em;
   padding: 10px 0;
   border-bottom: 2px dotted $dark-peru;
+  b{
+    font-size: 1.4em;
+    font-weight: 400;
+  }
   .fa-cloud-upload {
     padding-right: 10px;
-    font-size: 1.4em;
+    font-size: 1.3em;
   }
   .repo {
     font-weight: 400;
     padding-right: 100px;
     font-size: 1.3em;
+    text-align: center;
   }
   .updated {
     font-weight: 100;
-    font-size: 1em;
+    font-size: .9em;
+    text-align: center;
   }
 }
