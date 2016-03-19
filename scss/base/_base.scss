@@ -1,25 +1,23 @@
 /* Base Styles -------------------- */
 
-* {
-  box-sizing: border-box;
-}
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
 
 html, body {
-  height: 100%;
-  width: 100%;
+  padding: 0px;
+  margin: 0px;
 }
 
 body {
-  background: peru;
+  background: $peru;
+  font-family: $stack-quicksand;
 }
 
-li {
-  list-style: none;
-  color: beige;
-  font-weight: 100;
-  letter-spacing: 0.3em;
-  text-align: center;
-  padding: 10px 0;
-  border-bottom: 1px dotted #a2662a
-;
+h1 {
+  font-family: $stack-quicksand;
+  font-weight: bold;
 }

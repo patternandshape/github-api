@@ -1,5 +1,7 @@
-// // Center text
-//
-// %centered {
-//   text-align: center;
-// }
+// flex container/column + center items within
+
+%flex-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

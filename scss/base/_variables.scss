@@ -3,16 +3,17 @@
 $white: #fff;
 $black: #000;
 $grey-purple: #9f9db2;
+$peru: peru;
+$dark-peru: #a2662a;
+$beige: beige;
 
 
 // Functional color variables
 
+$git-grey: $grey-purple;
 
 // Font stacks
 
-$stack-quicksand:'Quicksand', sans-serif;
+$stack-quicksand: 'Quicksand', sans-serif;
 
 // Media query breakpoints
-
-$brk-narrow: '(max-width: 768px)';
-$brk-wide: '(max-width: 1024px)';
