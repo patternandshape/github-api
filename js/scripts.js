@@ -10,18 +10,13 @@ exports.getRepos = function(user) {
   $.get('https://api.github.com/users/' + user + '/repos?access_token=' + apiKey + '&sort=created&order=desc&per_page=9999').then(function(response) {
     for (var i = 0; i <= response.length; i++) {
       var lastUpdate = moment(response[i].updated_at).format('l');
-      $('#repoList').append("<li>" + "<span class='repo'>" + response[i].name + "</span>" + "<i class='fa fa-cloud-upload'></i>" + "<span class='updated'>" + lastUpdate + "</span>" + "</li>");
+      var desc = response[i].description
+      $('#repoList').append("<p>" + "<b>" + response[i].name + "</b><br>" + desc + "<br>" + "<i class='fa fa-cloud-upload'></i>" + "<span class='updated'>" + lastUpdate + "</span>" + "</p>");
     }
   }).fail(function(error) {
     $('#repoList').text("Username not found");
   });
 };
-
-
-// moment().format("MMM Do YY"); what to do with you?
-// var expires = moment.utc(date).format();
-
-moment().format('l');
 
 },{"./../.env":1}],3:[function(require,module,exports){
 var getRepos = require('../js/user.js').getRepos;
