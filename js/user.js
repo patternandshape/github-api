@@ -9,6 +9,6 @@ exports.getRepos = function(user) {
       $('#repoList').append("<li>" + "<span class='repo'>" + response[i].name + "</span>" + "<i class='fa fa-cloud-upload'></i>" + "<span class='updated'>" + lastUpdate + "</span>" + "</li>");
     }
   }).fail(function(error) {
-    $('#repoList').text("Username not found");
+    $("#repoList").text("Username not found");
   });
 };
