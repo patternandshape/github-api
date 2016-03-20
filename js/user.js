@@ -12,9 +12,3 @@ exports.getRepos = function(user) {
     $('#repoList').text("Username not found");
   });
 };
-
-
-// moment().format("MMM Do YY"); what to do with you?
-// var expires = moment.utc(date).format();
-
-moment().format('l');
