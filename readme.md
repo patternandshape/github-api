@@ -35,7 +35,6 @@ Github User Search can also be viewed at http://patternandshape.github.io/github
 * SCSS
 * JavaScript
 * jQuery
-* Terminal
 * Git
 * NPM
 * Node
